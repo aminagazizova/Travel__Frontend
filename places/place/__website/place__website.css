@@ -1,0 +1,7 @@
+.place__website {
+    color: #FFFFFF;
+    margin-left: 648px;
+    margin-bottom: 48px;
+    margin-top: 2vh;
+    font-size: clamp(14px, 2vw, 18px);
+}

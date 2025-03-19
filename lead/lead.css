@@ -1,0 +1,48 @@
+@import url(/blocks/lead/__caption/lead__caption.css);
+@import url(/blocks/lead/__image/lead__image.css);
+@import url(/blocks/lead/__subtitle/lead__subtitle.css);
+@import url(/blocks/lead/__title/lead__title.css);
+@import url(/blocks/lead/__image-content/lead__image-content.css);
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 92px auto;
+    width: 1184px;
+    height: 1005px;
+}
+
+@media (max-width: 1280px) {
+    .lead {
+        width: 90%; 
+        height: auto; 
+        padding: 40px; 
+    }
+}
+
+@media (max-width: 1024px) {
+    .lead {
+        width: 90%;
+        height: auto;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .lead {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+}

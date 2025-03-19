@@ -1,0 +1,6 @@
+.lead__image-content{
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+}

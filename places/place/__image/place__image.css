@@ -1,0 +1,5 @@
+.place__image {
+    width: clamp(200px, 40vw, 460px);
+    height: auto;
+    margin-left: 146px;
+}
